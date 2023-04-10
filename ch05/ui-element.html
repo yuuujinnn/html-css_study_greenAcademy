@@ -6,18 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>가상 클래스 선택자</title>
     <style>
-        form{
-            width: 500px;
-        }
-        fieldset{
-            margin-bottom: 20px;
-        }
-        /* ul 요소의 상태에 따른 가상 선택자 사용 */
+        form{width: 500px;}
+        fieldset{margin-bottom: 20px;}
+        /* ui 요소의 상태에 따른 가상 선택자 사용 */
         input:disabled{
             border: 1px solid #ccc;
             background-color: #ddd;
         }
-        /* 옵션이 선택된 상태(:checked)로 스타일 적용 */
+        /* 옵션이 선택된 상태(checked)로 스타일 적용 */
         input:checked + span{
             color: blue;
         }
